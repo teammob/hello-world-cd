@@ -6,6 +6,7 @@ module.exports.helloWorld = (event, context, callback) => {
 
   var hWorld = new HelloWorld();
 
+  
   const response = {
     statusCode: 200,
     headers: {
