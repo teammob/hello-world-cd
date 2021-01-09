@@ -23,9 +23,9 @@ jobs:
 
       - run:
           name: Install Serverless CLI and dependencies
-          command: |
-            sudo npm i -g serverless
-            npm install
+          command: npm install
+           # sudo npm i -g serverless
+            
 
       # run tests
       - run: 
